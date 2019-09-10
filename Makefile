@@ -1,0 +1,5 @@
+PKG_NAME := mvn-aliyun-openapi-java-sdk
+URL = https://repo.maven.apache.org/maven2/com/aliyun/aliyun-java-sdk-aas/2.1.0/aliyun-java-sdk-aas-2.1.0-sources.jar
+ARCHIVES = https://repo.maven.apache.org/maven2/com/aliyun/aliyun-java-sdk-core/3.4.0/aliyun-java-sdk-core-3.4.0.jar : https://repo.maven.apache.org/maven2/com/aliyun/aliyun-java-sdk-core/3.4.0/aliyun-java-sdk-core-3.4.0.pom : https://repo.maven.apache.org/maven2/com/aliyun/aliyun-java-sdk-ram/3.0.0/aliyun-java-sdk-ram-3.0.0.jar : https://repo.maven.apache.org/maven2/com/aliyun/aliyun-java-sdk-ram/3.0.0/aliyun-java-sdk-ram-3.0.0.pom : https://repo.maven.apache.org/maven2/com/aliyun/aliyun-java-sdk-sts/3.0.0/aliyun-java-sdk-sts-3.0.0.jar : https://repo.maven.apache.org/maven2/com/aliyun/aliyun-java-sdk-sts/3.0.0/aliyun-java-sdk-sts-3.0.0.pom : https://repo.maven.apache.org/maven2/com/aliyun/aliyun-java-sdk-ecs/4.2.0/aliyun-java-sdk-ecs-4.2.0.jar : https://repo.maven.apache.org/maven2/com/aliyun/aliyun-java-sdk-ecs/4.2.0/aliyun-java-sdk-ecs-4.2.0.pom :
+
+include ../common/Makefile.common
